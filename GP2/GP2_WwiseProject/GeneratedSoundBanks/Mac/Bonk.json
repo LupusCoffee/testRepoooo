@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{BB69BC46-7493-4FE7-B9EE-1339C8CDB68C}",
     "Language": "SFX",
-    "Hash": "{867B0CE1-D147-2B0A-8365-4B3B79D4E046}",
+    "Hash": "{BBEFF6D7-221F-5AC0-B1B6-ACCED0BE4E0C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bonk",
     "ShortName": "Bonk",
     "Path": "Bonk.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{6B5D2FDD-AD55-BEDB-EE46-3E2C85E86040}"
+  "FileHash": "{0C4723A8-EA4F-24DD-2178-2E1A3979ADA4}"
  }
 }

@@ -6,6 +6,16 @@
 				<MusicSegment Name="test test" ID="{80172114-75E8-4E60-83E4-DCEBB50763D0}" ShortID="870878953">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="264535.25"/>
+						<Property Name="OutputBusHighpass" Type="int16">
+							<ValueList>
+								<Value>49</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlaybackSpeed" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
