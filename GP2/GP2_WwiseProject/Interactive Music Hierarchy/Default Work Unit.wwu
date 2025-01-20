@@ -1,6 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0CA381A2-BE60-41F0-811B-67D2FADBAFEA}" SchemaVersion="123">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{0CA381A2-BE60-41F0-811B-67D2FADBAFEA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0CA381A2-BE60-41F0-811B-67D2FADBAFEA}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="test test" ID="{80172114-75E8-4E60-83E4-DCEBB50763D0}" ShortID="870878953">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="264535.25"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{37F4B368-09B3-4E6A-804A-D86397C5580E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB1A4E8A-C53C-48C2-ADD1-784A0511E87A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="The Desert - full song" ID="{431912AD-47CE-4166-9271-59ACCB4DE7C2}" ShortID="816418379">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FB1A4E8A-C53C-48C2-ADD1-784A0511E87A}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{1DE47B44-8FC0-40AF-B341-51E282AAF490}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="The Desert - full song" ID="{51AD69AB-EAEA-4586-B69A-4F0211E534A9}">
+									<Language>SFX</Language>
+									<AudioFile>The Desert - full song.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="746406752"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{185BE24A-8BDC-49EB-B70A-FE714527D266}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="The Desert - full song" ID="{7123F9EB-7D36-45AF-8003-4D50313E4F43}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="264535.25"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="The Desert - full song" ID="{51AD69AB-EAEA-4586-B69A-4F0211E534A9}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{B5E5AC8F-8005-4052-A1DF-BC73D785027A}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{73FA6D9C-DBB2-4AE6-B1F4-F93EE2B3AE3E}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="94875.8333333333"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2882184157	Play_test_test			\Default Work Unit\Play_test_test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	746406752	The Desert - full song	C:\repos\testRepoooo\GP2\GP2_WwiseProject\.cache\E8\{E82CEB70-387B-9EC7-5005-A5997EE527DB}.wem		\Interactive Music Hierarchy\Default Work Unit\test test\The Desert - full song		50790912
+

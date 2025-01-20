@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1744723401",
+    "Type": "User",
+    "GUID": "{BB69BC46-7493-4FE7-B9EE-1339C8CDB68C}",
+    "Language": "SFX",
+    "Hash": "{867B0CE1-D147-2B0A-8365-4B3B79D4E046}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Bonk",
+    "ShortName": "Bonk",
+    "Path": "Bonk.bnk",
+    "Media": [
+     {
+      "Id": "746406752",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "The Desert - full song.wav",
+      "CachePath": "E8/{E82CEB70-387B-9EC7-5005-A5997EE527DB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2882184157",
+      "Name": "Play_test_test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_test_test",
+      "GUID": "{E256F8F8-8EA5-47BA-AA65-7895B0ABBE79}",
+      "DurationType": "OneShot",
+      "DurationMin": "264.53525",
+      "DurationMax": "264.53525",
+      "MediaRefs": [
+       {
+        "Id": "746406752"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6B5D2FDD-AD55-BEDB-EE46-3E2C85E86040}"
+ }
+}

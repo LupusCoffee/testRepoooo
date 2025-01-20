@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 871adc5fdf81d14e9b7bfddefb633678
     GuidInternal: 
-    m_lastTime: -8584642163876475559
-    List: []
+    m_lastTime: -8584642140362463061
+    List:
+    - name: Bonk
+      guid: 46bc69bb9374e74fb9ee1339c8cdb68c
+      id: 1744723401
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 871adc5fdf81d14e9b7bfddefb633678
+      - ElementName: Bonk
+        ObjectType: 7
+        guid: 46bc69bb9374e74fb9ee1339c8cdb68c
+      Path: SoundBanks\Default Work Unit\Bonk
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 027f01258ac8544fbf93cf92d9c73b4f
     GuidInternal: 
-    m_lastTime: -8584642163874732358
-    List: []
+    m_lastTime: -8584642142808131491
+    List:
+    - name: Play_test_test
+      guid: f8f856e2a58eba47aa657895b0abbe79
+      id: 2882184157
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 027f01258ac8544fbf93cf92d9c73b4f
+      - ElementName: Play_test_test
+        ObjectType: 3
+        guid: f8f856e2a58eba47aa657895b0abbe79
+      Path: Events\Default Work Unit\Play_test_test
+      maxAttenuation: 0
+      maxDuration: 264.53525
+      minDuration: 264.53525
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +170,7 @@ MonoBehaviour:
     m_lastTime: -8584642163876261400
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000004000000041000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
